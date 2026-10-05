@@ -4,10 +4,18 @@ Bloco/versão:
 Bloco 3 da v11.5 (em desenvolvimento; a versão publicada do programa é a 11.4) — NÃO é release
 
 Commit do Financeiro Pro (repositório privado) que foi renderizado:
-d20b31b05079e0e1d2bf9c74d175bd6bffee87c9
+2c6f80b200973abded594a0fcfa57fb665ad3474
 
 CONFIRMAÇÃO: TODOS OS DADOS DESTAS IMAGENS SÃO FICTÍCIOS. Nenhuma captura vem do banco real; nenhum nome, valor, CPF,
 conta, cartão, e-mail, ID, protocolo, token ou chave é real. Ambiente gerado por `ferramentas/revisao_visual.py`.
+
+PDF de revisão:
+review.pdf
+
+Finalidade:
+arquivo navegável (1 página por captura, na ordem abaixo) destinado à inspeção visual pelo ChatGPT, porque o conector do
+GitHub entrega PNG como binário/base64. O PDF contém EXCLUSIVAMENTE as mesmas 11 capturas sintéticas listadas aqui (conferido pixel a
+pixel e por SHA-256 antes de publicar); nenhuma tela nova e nenhum dado real.
 
 Ambiente:
 - dados sintéticos (banco montado por `ferramentas/revisao_visual.py`; titular “Usuário Exemplo da Silva”)
@@ -32,6 +40,22 @@ Conferir:
 - card de sincronização em dia
 - alinhamento e margens
 
+## 02-dashboard-atencao-1280.png
+
+Viewport:
+1280x900
+
+Tela:
+Dashboard (topo)
+
+Estado simulado:
+uma fonte em atenção: fatura Amazon Bradesco esperada e não importada
+
+Conferir:
+- linha “⚠ Amazon Bradesco” em âmbar com o motivo
+- as demais fontes seguem OK
+- nenhum vermelho
+
 ## 03-cobertura-expandida.png
 
 Viewport:
@@ -49,22 +73,6 @@ Conferir:
 - Nubank VERDE mesmo sendo importação manual (aparece só como detalhe)
 - Gmail cinza: ambiente isolado (não é “desconectado”)
 - Banco do Brasil agrupa conta + Visa Infinite
-
-## 02-dashboard-atencao-1280.png
-
-Viewport:
-1280x900
-
-Tela:
-Dashboard (topo)
-
-Estado simulado:
-uma fonte em atenção: fatura Amazon Bradesco esperada e não importada
-
-Conferir:
-- linha “⚠ Amazon Bradesco” em âmbar com o motivo
-- as demais fontes seguem OK
-- nenhum vermelho
 
 ## 04-lancamentos-1280.png
 
@@ -84,6 +92,22 @@ Conferir:
 - Cartão Bradesco aparece como Amazon Bradesco
 - filtros e botão Selecionar na barra
 - nenhum dado técnico na linha
+
+## 05-lancamentos-1024.png
+
+Viewport:
+1024x800
+
+Tela:
+Dashboard › Lançamentos do mês
+
+Estado simulado:
+mesmo mês, janela estreita
+
+Conferir:
+- filtros quebram em duas linhas sem estourar
+- valor e menu ⋯ continuam visíveis
+- sem rolagem horizontal
 
 ## 06-linha-normal.png
 
@@ -146,22 +170,6 @@ Conferir:
 - checkbox só aparece neste modo
 - barra “2 selecionado(s)” com Alterar categoria / Excluir / Cancelar
 - botão Selecionar destacado
-
-## 05-lancamentos-1024.png
-
-Viewport:
-1024x800
-
-Tela:
-Dashboard › Lançamentos do mês
-
-Estado simulado:
-mesmo mês, janela estreita
-
-Conferir:
-- filtros quebram em duas linhas sem estourar
-- valor e menu ⋯ continuam visíveis
-- sem rolagem horizontal
 
 ## 10-configuracoes-titular.png
 

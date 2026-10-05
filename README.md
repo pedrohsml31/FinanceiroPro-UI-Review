@@ -5,4 +5,5 @@ Repositório **exclusivo** para capturas de tela **sintéticas** usadas na revis
 - Todas as imagens vêm de um ambiente de teste gerado automaticamente, com dados **fictícios** ("Usuário Exemplo da Silva",
   "Supermercado Central"…). Nenhuma vem de dados reais.
 - Aqui **não há** código-fonte, banco de dados, configuração, credenciais, nomes, valores, CPF, contas, cartões, e-mails ou IDs reais.
-- Cada pasta (`bloco3/`…) tem um `manifesto.md` com o commit do programa que foi renderizado e o que conferir em cada imagem.
+- Cada pasta (`bloco3/`…) tem um `manifesto.md` com o commit do programa que foi renderizado e o que conferir em cada imagem, e um
+  `review.pdf` navegável (1 página por captura) com exatamente as mesmas imagens, para inspeção visual.
