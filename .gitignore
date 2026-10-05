@@ -1,0 +1,6 @@
+*
+!README.md
+!.gitignore
+!bloco*/
+!bloco*/*.png
+!bloco*/manifesto.md
