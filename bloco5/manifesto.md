@@ -4,7 +4,7 @@ Bloco/versão:
 Bloco 5 da v11.5 (em desenvolvimento; a versão publicada do programa é a 11.4) — NÃO é release
 
 Commit do Financeiro Pro (repositório privado) que foi renderizado:
-95870b9041cad5bb885e313f7ad2962c9d8ed108
+1f4f6f2e57bdf693265ff5ee16879f5a561de2bf
 
 CONFIRMAÇÃO: TODOS OS DADOS DESTAS IMAGENS SÃO FICTÍCIOS. Nenhuma captura vem do banco real; nenhum nome, valor, CPF,
 conta, cartão, e-mail, ID, protocolo, token ou chave é real. Ambiente gerado por `ferramentas/revisao_visual.py`.
@@ -80,16 +80,17 @@ Viewport:
 1280x900
 
 Tela:
-Revisão › decisão SEM sugestão (ambiguidade real)
+Revisão › possível cobrança repetida (decisão própria, nunca dentro de um grupo)
 
 Estado simulado:
-PIX do BRB sem destinatário identificado
+um débito com outro igual em 25/03
 
 Conferir:
-- a pergunta diz o que falta: “PIX sem destinatário identificado”
-- nenhuma categoria inventada; botões “Escolher categoria”, “Não lembro”, “Investigar”
-- seletor de categoria com busca
-- “Por quê?”: o BRB não informa quem recebeu
+- a pergunta é só “este lançamento é um duplicado?”
+- mostra “Este lançamento” e o “Possível correspondente” (valor e data)
+- botões “Não é duplicado — …” e “É duplicado — não registrar”
+- “Por quê?”: o outro débito igual; nenhuma decisão automática
+- (a categoria só aparece depois de dizer que NÃO é duplicado)
 
 ## 05-revisao-1024.png
 
